@@ -1,0 +1,166 @@
+{
+  "user_journeys": [
+    {
+      "name": "Új biztosítás kiválasztása",
+      "steps": [
+        {
+          "query": "Milyen casco biztosítási csomagok léteznek?",
+          "expected_elements": ["basic", "premium", "csomag"]
+        },
+        {
+          "query": "Mi a különbség a basic és premium között?",
+          "expected_elements": ["fedezet", "önrész", "díj"]
+        },
+        {
+          "query": "Mennyibe kerül a premium csomag?",
+          "expected_elements": ["ft", "díj", "összeg"]
+        }
+      ]
+    },
+    {
+      "name": "Kárbejelentési folyamat",
+      "steps": [
+        {
+          "query": "Hogyan kell bejelenteni egy káresemény?",
+          "expected_elements": ["bejelentés", "határidő", "módszer"]
+        },
+        {
+          "query": "Milyen dokumentumokat kell benyújtani?",
+          "expected_elements": ["irat", "dokumentum", "szükséges"]
+        },
+        {
+          "query": "Mennyi idő alatt kell várni a kártérítésre?",
+          "expected_elements": ["nap", "idő", "kifizetés"]
+        }
+      ]
+    },
+    {
+      "name": "Jégkár ügyintézés",
+      "steps": [
+        {
+          "query": "A biztosításom fedezi a jégkárt?",
+          "expected_elements": ["jég", "fedezet", "casco"]
+        },
+        {
+          "query": "Mennyit térít jégkár esetén?",
+          "expected_elements": ["százalék", "térítés", "összeg"]
+        }
+      ]
+    },
+    {
+      "name": "Szerződés módosítás",
+      "steps": [
+        {
+          "query": "Hogyan lehet váltani magasabb biztosításra?",
+          "expected_elements": ["módosítás", "váltás", "csomag"]
+        },
+        {
+          "query": "Van-e költsége a módosításnak?",
+          "expected_elements": ["költség", "díj", "módosítás"]
+        }
+      ]
+    },
+    {
+      "name": "Felmondási folyamat",
+      "steps": [
+        {
+          "query": "Hogyan lehet felmondani a szerződést?",
+          "expected_elements": ["felmondás", "feltétel", "határidő"]
+        },
+        {
+          "query": "Van-e felmondási díj?",
+          "expected_elements": ["díj", "költség", "felmondás"]
+        }
+      ]
+    },
+    {
+      "name": "Külföldi utazás biztosítása",
+      "steps": [
+        {
+          "query": "Érvényes-e a biztosításom külföldön?",
+          "expected_elements": ["külföld", "érvényes", "terület"]
+        },
+        {
+          "query": "Mely országokban használható?",
+          "expected_elements": ["ország", "terület", "érvényes"]
+        }
+      ]
+    },
+    {
+      "name": "Asszisztencia szolgáltatás",
+      "steps": [
+        {
+          "query": "Tartalmazza-e az asszisztencia szolgáltatást?",
+          "expected_elements": ["asszisztencia", "szolgáltatás"]
+        },
+        {
+          "query": "Milyen esetekben vehető igénybe?",
+          "expected_elements": ["eset", "helyzet", "igénybe"]
+        }
+      ]
+    },
+    {
+      "name": "Kedvezmények igénybevétele",
+      "steps": [
+        {
+          "query": "Milyen kedvezményeket lehet igényelni?",
+          "expected_elements": ["kedvezmény", "bonus", "százalék"]
+        },
+        {
+          "query": "Hogy befolyásolja a kármentes időszak a díjat?",
+          "expected_elements": ["kármentes", "díj", "kedvezmény"]
+        }
+      ]
+    },
+    {
+      "name": "Teljeskár esetén eljárás",
+      "steps": [
+        {
+          "query": "Mi történik totálkár esetén?",
+          "expected_elements": ["totálkár", "teljes", "térítés"]
+        },
+        {
+          "query": "Mekkora összeget kapok?",
+          "expected_elements": ["összeg", "térítés", "kártérítés"]
+        }
+      ]
+    },
+    {
+      "name": "Lopás esetén eljárás",
+      "steps": [
+        {
+          "query": "Fedezi a biztosítás a lopás kockázatát?",
+          "expected_elements": ["lopás", "fedezet", "casco"]
+        },
+        {
+          "query": "Mit kell tenni lopás esetén?",
+          "expected_elements": ["bejelentés", "rendőrség", "eljárás"]
+        }
+      ]
+    }
+  ],
+  "response_quality_tests": [
+    {"query": "Mennyit térít jégkárra?"},
+    {"query": "Mi a különbség a basic és premium között?"},
+    {"query": "Hogyan lehet bejelenteni a kárt?"},
+    {"query": "Milyen kedvezményeket lehet igényelni?"},
+    {"query": "Érvényes-e külföldön?"},
+    {"query": "Van-e önrész?"},
+    {"query": "Mikor jár kártérítés?"},
+    {"query": "Hogyan lehet felmondani?"},
+    {"query": "Milyen járművekre köthető?"},
+    {"query": "Tartalmazza az asszisztenciát?"}
+  ],
+  "satisfaction_tests": [
+    {"query": "Mennyibe kerül a basic csomag?"},
+    {"query": "Mikor kezdődik a biztosítás?"},
+    {"query": "Van-e várakozási idő?"},
+    {"query": "Mekkora a max biztosítási összeg?"},
+    {"query": "Hogyan történik a kifizetés?"},
+    {"query": "Milyen esetekben nem fizet?"},
+    {"query": "Van-e részletfizetés?"},
+    {"query": "Meddig tart a szerződés?"},
+    {"query": "Hogyan lehet módosítani?"},
+    {"query": "Mi a garancia időtartam?"}
+  ]
+}

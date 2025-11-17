@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(copy evaluation_tests*.json backendevaluation_tests)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

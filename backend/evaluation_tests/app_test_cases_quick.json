@@ -1,0 +1,36 @@
+{
+  "user_journeys": [
+    {
+      "name": "Kárbejelentési folyamat",
+      "steps": [
+        {
+          "query": "Hogyan kell bejelenteni egy káresemény?",
+          "expected_elements": ["bejelentés", "határidő"]
+        },
+        {
+          "query": "Milyen dokumentumokat kell benyújtani?",
+          "expected_elements": ["dokumentum", "szükséges"]
+        }
+      ]
+    },
+    {
+      "name": "Külföldi fedezet",
+      "steps": [
+        {
+          "query": "Érvényes-e a biztosításom külföldön?",
+          "expected_elements": ["külföld", "érvényes"]
+        }
+      ]
+    }
+  ],
+  "response_quality_tests": [
+    {"query": "Mennyit térít jégkárra?"},
+    {"query": "Hogyan lehet bejelenteni a kárt?"},
+    {"query": "Érvényes-e külföldön?"}
+  ],
+  "satisfaction_tests": [
+    {"query": "Mikor kezdődik a biztosítás?"},
+    {"query": "Van-e részletfizetés?"},
+    {"query": "Hogyan lehet felmondani?"}
+  ]
+}

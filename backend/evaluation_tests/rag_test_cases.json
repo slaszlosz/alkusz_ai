@@ -1,0 +1,114 @@
+{
+  "retrieval_tests": [
+    {
+      "query": "Mennyit térít a Uniqua Basic Casco jégkárra?",
+      "expected_docs": ["6b27d4e8-9c48-4d41-a982-78bd6913df81"]
+    },
+    {
+      "query": "Milyen önrésszel rendelkezik a prémium csomag?",
+      "expected_docs": ["6b27d4e8-9c48-4d41-a982-78bd6913df81"]
+    },
+    {
+      "query": "Mekkora a maximum biztosítási összeg?",
+      "expected_docs": ["6b27d4e8-9c48-4d41-a982-78bd6913df81", "39b94720-8714-41b1-9519-44a680bb4189"]
+    },
+    {
+      "query": "Mely esetekben nem fizet a biztosító?",
+      "expected_docs": ["6b27d4e8-9c48-4d41-a982-78bd6913df81"]
+    },
+    {
+      "query": "Mikor jár kártérítés tűzkár esetén?",
+      "expected_docs": ["39b94720-8714-41b1-9519-44a680bb4189"]
+    },
+    {
+      "query": "Milyen feltételekkel lehet igényelni a kárt?",
+      "expected_docs": ["6b27d4e8-9c48-4d41-a982-78bd6913df81", "39b94720-8714-41b1-9519-44a680bb4189"]
+    },
+    {
+      "query": "Van-e várakozási idő a biztosítás kezdetekor?",
+      "expected_docs": ["6b27d4e8-9c48-4d41-a982-78bd6913df81"]
+    },
+    {
+      "query": "Hogyan lehet felm mondani a szerződést?",
+      "expected_docs": ["6b27d4e8-9c48-4d41-a982-78bd6913df81"]
+    },
+    {
+      "query": "Milyen időn belül kell bejelenteni a káresetet?",
+      "expected_docs": ["6b27d4e8-9c48-4d41-a982-78bd6913df81"]
+    },
+    {
+      "query": "Mik a biztosítási csomag díjai?",
+      "expected_docs": ["6b27d4e8-9c48-4d41-a982-78bd6913df81"]
+    },
+    {
+      "query": "Mely kiegészítő biztosítások választhatók?",
+      "expected_docs": ["6b27d4e8-9c48-4d41-a982-78bd6913df81"]
+    },
+    {
+      "query": "Meddig tart egy biztosítási időszak?",
+      "expected_docs": ["6b27d4e8-9c48-4d41-a982-78bd6913df81"]
+    },
+    {
+      "query": "Van-e területi korlátozás a biztosításnál?",
+      "expected_docs": ["6b27d4e8-9c48-4d41-a982-78bd6913df81", "39b94720-8714-41b1-9519-44a680bb4189"]
+    },
+    {
+      "query": "Milyen járművekre köthető a biztosítás?",
+      "expected_docs": ["6b27d4e8-9c48-4d41-a982-78bd6913df81"]
+    },
+    {
+      "query": "Mi a különbség a basic és premium között?",
+      "expected_docs": ["6b27d4e8-9c48-4d41-a982-78bd6913df81"]
+    },
+    {
+      "query": "Mikor érvényes a biztosítás külföldön?",
+      "expected_docs": ["6b27d4e8-9c48-4d41-a982-78bd6913df81"]
+    },
+    {
+      "query": "Hogyan lehet módosítani a biztosítást?",
+      "expected_docs": ["6b27d4e8-9c48-4d41-a982-78bd6913df81"]
+    },
+    {
+      "query": "Milyen kedvezményeket lehet igényelni?",
+      "expected_docs": ["6b27d4e8-9c48-4d41-a982-78bd6913df81"]
+    },
+    {
+      "query": "Van-e bonus-malus rendszer?",
+      "expected_docs": ["6b27d4e8-9c48-4d41-a982-78bd6913df81"]
+    },
+    {
+      "query": "Mi a garancia kijavításra?",
+      "expected_docs": ["6b27d4e8-9c48-4d41-a982-78bd6913df81"]
+    },
+    {
+      "query": "Tartalmazza-e az ásszisztencia szolgáltatást?",
+      "expected_docs": ["6b27d4e8-9c48-4d41-a982-78bd6913df81"]
+    },
+    {
+      "query": "Mekkora lopás esetén jár kártérítés?",
+      "expected_docs": ["6b27d4e8-9c48-4d41-a982-78bd6913df81"]
+    }
+  ],
+  "chunking_tests": [
+    {
+      "query": "Jégkár térítés",
+      "expected_keywords": ["jég", "kár", "térítés", "százalék"]
+    },
+    {
+      "query": "Biztosítási díj",
+      "expected_keywords": ["díj", "fizetés", "összeg"]
+    },
+    {
+      "query": "Önrész mértéke",
+      "expected_keywords": ["önrész", "százalék", "összeg"]
+    },
+    {
+      "query": "Kárbejelentés határidő",
+      "expected_keywords": ["bejelentés", "határidő", "nap"]
+    },
+    {
+      "query": "Felmondási feltételek",
+      "expected_keywords": ["felmondás", "feltétel", "határidő"]
+    }
+  ]
+}

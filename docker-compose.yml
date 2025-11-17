@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/uploads:/app/uploads
+      - ./backend/chroma_db:/app/chroma_db
+      - ./backend/alkusz_ai.db:/app/alkusz_ai.db
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - DATABASE_URL=sqlite+aiosqlite:///./alkusz_ai.db
+      - CHROMA_PERSIST_DIRECTORY=/app/chroma_db
+      - UPLOAD_DIR=/app/uploads
+    env_file:
+      - .env
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend/src:/app/src

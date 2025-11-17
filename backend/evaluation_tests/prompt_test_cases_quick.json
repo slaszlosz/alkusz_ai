@@ -1,0 +1,19 @@
+{
+  "single_turn_tests": [
+    {
+      "query": "Milyen esetekben nem fizet az Allianz gépjármű biztosítás?"
+    },
+    {
+      "query": "Hogyan kell bejelenteni egy káresemény az Allianz biztosításnál?"
+    },
+    {
+      "query": "Milyen kiegészítő otthonbiztosítási fedezetek érhetők el a KöBE biztosításnál?"
+    },
+    {
+      "query": "Mikor kezdődik a biztosítás érvényessége?"
+    },
+    {
+      "query": "Van-e részletfizetési lehetőség a biztosítási díjnál?"
+    }
+  ]
+}

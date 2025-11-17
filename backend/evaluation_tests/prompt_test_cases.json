@@ -1,0 +1,58 @@
+{
+  "single_turn_tests": [
+    {
+      "query": "Milyen esetekben nem fizet az Allianz gépjármű biztosítás?"
+    },
+    {
+      "query": "Hogyan kell bejelenteni egy káresemény az Allianz biztosításnál?"
+    },
+    {
+      "query": "Milyen kiegészítő otthonbiztosítási fedezetek érhetők el a KöBE biztosításnál?"
+    },
+    {
+      "query": "Mikor kezdődik a biztosítás érvényessége?"
+    },
+    {
+      "query": "Van-e részletfizetési lehetőség a biztosítási díjnál?"
+    },
+    {
+      "query": "Milyen kockázatok vannak kizárva az Allianz autóbiztosításból?"
+    },
+    {
+      "query": "Mik a főbb biztosítási események a KöBE lakásbiztosításnál?"
+    },
+    {
+      "query": "Hogyan működik a kárigény bejelentése?"
+    },
+    {
+      "query": "Van-e várakozási idő az új biztosítási szerződésnél?"
+    },
+    {
+      "query": "Milyen dokumentumokat kell mellékelni kárbejelentéshez?"
+    },
+    {
+      "query": "Érvényes-e a biztosítás külföldön is?"
+    },
+    {
+      "query": "Milyen önrészt kell fizetni kár esetén?"
+    },
+    {
+      "query": "Hogyan lehet felmondani a biztosítási szerződést?"
+    },
+    {
+      "query": "Milyen asszisztencia szolgáltatások tartoznak a biztosításhoz?"
+    },
+    {
+      "query": "Mik a biztosítás díjfizetési feltételei?"
+    },
+    {
+      "query": "Milyen esetekben csökken a biztosítási összeg?"
+    },
+    {
+      "query": "Van-e lehetőség a biztosítási díj kedvezményére?"
+    },
+    {
+      "query": "Milyen káresemények esetén kell rendőrségi jegyzőkönyv?"
+    }
+  ]
+}
